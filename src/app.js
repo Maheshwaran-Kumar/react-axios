@@ -8,11 +8,11 @@ function App() {
 <div className="App">
 <h2>Axios demo</h2>
  
-      <BrowserRouter>
-<Routes>
-<Route path="/" element={<UserListComponent />} />
-<Route path="/user/:id" element={<UserDetailComponent />} />
-</Routes>
+<BrowserRouter>
+  <Routes>
+   <Route path="/" element={<UserListComponent />} />
+   <Route path="/user/:id" element={<UserDetailComponent />} />
+  </Routes>
 </BrowserRouter>
 </div>
   );
